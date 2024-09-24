@@ -45,7 +45,8 @@ pip install ipdb
 After that, the pretrained **LLaVA-1.5-7b** ([link](https://huggingface.co/liuhaotian/llava-v1.5-7b/tree/main)) is required to be downloaded under the ```./checkpoints/``` directory.
 
 The **FABAInstruct** ([link](https://arxiv.org/pdf/2404.05052)) dataset is required to be downloaded and unzip under the ```./data/``` directory. Note that the landmark features have already been extracted by the pretrained Insightface model and put into the FABAInstruct dataset. The preprocessing codes are in ```.feature_extraction/landmark```. The overall directory tree of FABA-Instruct dataset is like:
-```data/
+```
+data/
 └── FABAInstruct/
     ├── train/
     │   ├── train_au_anno.json
