@@ -8,6 +8,9 @@
     <a href="https://johnx69.github.io/FABA/"><img src="assets/emola.gif" width="90%"></a> <br>
 </p>
 
+## Abstract
+Facial affective behavior analysis (FABA) is crucial for understanding human mental states from images. However, traditional approaches primarily deploy models to discriminate among discrete emotion categories, and lack the fine granularity and reasoning capability for complex facial behaviors. The advent of Multi-modal Large Language Models (MLLMs) has been proven successful in general visual understanding tasks. However, directly harnessing MLLMs for FABA is challenging due to the scarcity of datasets and benchmarks, neglecting facial prior knowledge, and low training efficiency. To address these challenges, we introduce (i) an instruction-following dataset for two FABA tasks, i.e., facial emotion and action unit recognition, (ii) a benchmark FABA-Bench with a new metric considering both recognition and generation ability, and (iii) a new MLLM EmoLA as a strong baseline to the community. Our initiative on the dataset and benchmarks reveal the nature and rationale of facial affective behaviors, i.e., finegrained facial movement, interpretability, and reasoning. Moreover, to build an effective and efficient FABA MLLM, we introduce a facial prior expert module with face structure knowledge and a low-rank adaptation module into pre-trained MLLM. We conduct extensive experiments on FABA-Bench and four commonly-used FABA datasets. The results demonstrate that the proposed facial prior expert can boost the performance and EmoLA achieves the best results on our FABA-Bench. On commonly-used FABA datasets, EmoLA is competitive rivaling taskspecific state-of-the-art models.
+
 ## Contents
 - [Installation](#installation)
 - [Download](#downloading)
@@ -41,7 +44,7 @@ pip install ipdb
 
 After that, the pretrained MLLM LLaVA-1.5-7b ([link](https://huggingface.co/liuhaotian/llava-v1.5-7b/tree/main)) is needed to be downloaded under the ```./checkpoints/``` directory.
 
-The **FABAInstruct** ([link](https://arxiv.org/pdf/2404.05052)) dataset is needed to be downloaded and unzip under the ```./data/``` directory. Note that the landmark features have already been extracted by the pretrained Insightface model and put into the FABAInstruct dataset. The preprocessing codes are xxx. The overall directory tree of FABA-Instruct is like:
+The **FABAInstruct** ([link](https://arxiv.org/pdf/2404.05052)) dataset is needed to be downloaded and unzip under the ```./data/``` directory. Note that the landmark features have already been extracted by the pretrained Insightface model and put into the FABAInstruct dataset. The preprocessing codes are in ```.feature_extraction/landmark```. The overall directory tree of FABA-Instruct dataset is like:
 ```
 data/
 └── FABAInstruct/

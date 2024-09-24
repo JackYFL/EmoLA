@@ -20,7 +20,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig, BitsAn
 import torch
 
 from emollava.model.language_model import EmoLlavaLlamaForCausalLM
-from emollava.model.feature_projector.builder import build_face_feature_projector, build_landmark_feature_projector
+from emollava.model.feature_projector.builder import build_landmark_feature_projector
 
 from llava.constants import DEFAULT_IMAGE_PATCH_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
 
