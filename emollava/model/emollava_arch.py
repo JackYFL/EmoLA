@@ -1,7 +1,7 @@
 import torch
 from llava.model.llava_arch import LlavaMetaModel
 from llava.model.llava_arch import LlavaMetaForCausalLM
-from emollava.model.feature_projector.builder import build_face_feature_projector, build_landmark_feature_projector
+from emollava.model.feature_projector.builder import build_landmark_feature_projector
 
 from llava.model.multimodal_encoder.builder import build_vision_tower
 from llava.model.multimodal_projector.builder import build_vision_projector
