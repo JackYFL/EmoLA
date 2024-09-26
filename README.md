@@ -180,3 +180,6 @@ If you find our FABA-Instruct or EmoLA useful for your research, please cite usi
 
 ## Acknowledgement
 The images in FABA-Instruct are from [AffectNet](http://mohammadmahoor.com/affectnet/), and our codebase is based on [LLaVA](https://github.com/haotian-liu/LLaVA). Thanks for these great projects!
+
+## NSF Acknowledgement
+This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1949694 and 2040209. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
