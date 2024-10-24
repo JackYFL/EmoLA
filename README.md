@@ -1,5 +1,5 @@
 # Facial Affective Behavior Analysis with Instruction Tuning
-[[Project Page](https://johnx69.github.io/FABA/)]  [[Data](https://drive.google.com/file/d/1DiKYcakkY3cmNSMvydLgeI4xWMwTsX77/view?pli=1)] [[Paper](https://arxiv.org/pdf/2404.05052)]
+[[Project Page](https://johnx69.github.io/FABA/)]  [[Data](https://drive.google.com/file/d/1DiKYcakkY3cmNSMvydLgeI4xWMwTsX77/view?pli=1)] [[Paper](https://arxiv.org/pdf/2404.05052)] [[Checkpoints-AU](https://drive.google.com/drive/folders/1oilow8lr25VD4BjVl3CMQQqvzD2_rgXC?usp=share_link)] [[Checkpoints-Emotion](https://drive.google.com/drive/folders/1co1KeE7cKdhp-AmRKZEDxWg0zVtmg66Y?usp=share_link)]
 
 **Facial Affective Behavior Analysis with Visual Instruction Tuning** (ECCV 2024) [[Paper](https://arxiv.org/pdf/2404.05052)] <br>
 [Yifan Li](https://jackyfl.github.io), [Anh Dao](https://scholar.google.com/citations?user=EOD0QkMAAAAJ&hl=zh-CN), [Wentao Bao](https://cogito2012.github.io/homepage/), [Zhen Tan](https://zhen-tan-dmml.github.io), [Tianlong Chen](https://tianlong-chen.github.io/), [Huan Liu](https://www.public.asu.edu/~huanliu/), [Yu Kong](https://www.egr.msu.edu/~yukong/)
